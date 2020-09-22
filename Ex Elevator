@@ -1,0 +1,23 @@
+n = int(input())
+p = int(input())
+
+result = (n // p)
+if n < p:
+   print(1)
+else:
+    if n % p == 0:
+        print(int(n / p))
+    else:
+        result1 = (result + 1)
+        print(result1)
+
+
+
+#from math import  ceil
+
+#n = int(input())
+#p = int(input())
+
+#result = ceil(n / p)
+#print(result)
+
