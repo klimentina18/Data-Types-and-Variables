@@ -1,8 +1,8 @@
 n = int(input())
 
-for i in range (0, n):
+for i in range (0, n):            # weil (1, n + 1) ab "b" bis "d" ist
     for g in range (0, n):
         for h in range (0, n):
-            print(f"{chr(97 + i)}{chr(97 + g)}{chr(97+ h)}")
+            print(f"{chr(97 + i)}{chr(97 + g)}{chr(97+ h)}")  # 97 weil nur die kleine Letter sind
 
 
