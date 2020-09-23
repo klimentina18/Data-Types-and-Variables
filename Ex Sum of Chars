@@ -1,0 +1,8 @@
+n = int(input())
+result = 0
+
+while n != 0:
+    simbol = input()
+    n -= 1
+    result += ord(simbol)
+print(f"The sum equals: {result}")
