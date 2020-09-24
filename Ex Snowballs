@@ -14,8 +14,8 @@ while n > total_balls:
     ball_time = int(input())
     ball_quality = int(input())
     ball_v = (ball_snow / ball_time)
-    ball_value = pow(ball_v, ball_quality)
-    
+    ball_value = pow(ball_v, ball_quality) # (** ) ball_value = (ball_snow / ball_time) ** ball_quality
+      
     if ball_value > max_ball:
         max_ball = ball_value
         max_snow = ball_snow
